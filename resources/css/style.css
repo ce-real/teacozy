@@ -7,11 +7,19 @@
   text-align: center;
 }
 
+/* Header area. None of this seems to be working.
+Come back to it. */
+
 header{
   display: flex;
   position: fixed;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  flex: 10 10 auto;
+  margin-right: auto;
 }
 
 header img{
@@ -20,5 +28,14 @@ header img{
 }
 
 nav{
+  display: inline-flex;
   text-decoration: underline;
+  justify-content: space-around;
 }
+
+nav a{
+  display: inline-block;
+  margin: 0px 14px;
+}
+
+/* Mission area */
