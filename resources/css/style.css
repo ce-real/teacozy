@@ -18,8 +18,8 @@ header{
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: space-between;
-  flex: 10 10 auto;
-  margin-right: auto;
+  flex: 15 15 auto;
+  z-index: 10;
 }
 
 header img{
@@ -39,3 +39,50 @@ nav a{
 }
 
 /* Mission area */
+
+#mission{
+  display: flex;
+  position: relative;
+  top: 69px;
+  background-image: url("../images/img-mission-background.jpg");
+  min-height: 700px;
+  min-width: 1000px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex: 10 10 auto;
+}
+
+#text h2{
+  font-size: 34px;
+}
+
+#text h2, h4{
+  margin: 10px 100px;
+}
+
+/* Tea area */
+
+/*#tea{
+  position: relative;
+  top: 69px;
+  width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tea h2{
+  font-size: 34px;
+}
+
+#tea img{
+  width: 300px;
+  height: 200px;
+  margin: auto 15px;
+}
+
+#tea p{
+  margin: 10px auto;
+}*/
