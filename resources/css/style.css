@@ -63,18 +63,28 @@ nav a{
 
 /* Tea area */
 
-/*#tea{
+#tea{
   position: relative;
   top: 69px;
+  left: 100px;
   width: 1000px;
-  display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
 
-#tea h2{
+#thdr{
+  display: block;
+}
+
+#thdr h2{
   font-size: 34px;
+}
+
+#teatypes{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #tea img{
@@ -85,4 +95,4 @@ nav a{
 
 #tea p{
   margin: 10px auto;
-}*/
+}
