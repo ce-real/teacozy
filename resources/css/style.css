@@ -7,10 +7,13 @@
   text-align: center;
 }
 
-/* Header area. None of this seems to be working.
-Come back to it. */
+h2{
+  font-size: 34px;
+}
 
-header{
+/* Header area. */
+
+#header{
   display: flex;
   position: fixed;
   height: 69px;
@@ -22,7 +25,7 @@ header{
   z-index: 10;
 }
 
-header img{
+#header img{
   left: 10px;
   height: 50px;
 }
@@ -53,10 +56,6 @@ nav a{
   flex: 10 10 auto;
 }
 
-#text h2{
-  font-size: 34px;
-}
-
 #text h2, h4{
   margin: 10px 100px;
 }
@@ -64,35 +63,70 @@ nav a{
 /* Tea area */
 
 #tea{
-  position: relative;
-  top: 69px;
-  left: 100px;
   width: 1000px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#thdr{
-  display: block;
-}
-
-#thdr h2{
-  font-size: 34px;
+  position: relative;
+  top: 207px;
+  left: 100px;
 }
 
 #teatypes{
   display: inline-flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  left: 100px;
 }
 
-#tea img{
+#teatypes img{
   width: 300px;
   height: 200px;
   margin: auto 15px;
 }
 
-#tea p{
+#teatypes p{
   margin: 10px auto;
+}
+
+/* Location area */
+
+#loc{
+  background-image:url("../images/img-locations-background.jpg");
+  height: 500px;
+  min-width: 1000px;
+  max-width: 1200px;
+  display: flex;
+  position: relative;
+  top: 207px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loc h2{
+  background: none;
+  display: block;
+}
+
+#locbox{
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#downtown, #bayside, #oakdale{
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  left: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Contact area */
+
+#contact{
+
 }
